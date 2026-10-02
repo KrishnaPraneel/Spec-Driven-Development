@@ -1,0 +1,20 @@
+2026-09-30T14:51:31+05:30 INFO run_started
+2026-09-30T14:51:31+05:30 INFO files_discovered count=4
+2026-09-30T14:51:31+05:30 INFO file_read blank_lines=0 file=orders_2026-09-01_r1.csv rows=42
+2026-09-30T14:51:32+05:30 INFO file_read blank_lines=0 file=orders_2026-09-01_r2.csv rows=10
+2026-09-30T14:51:32+05:30 INFO file_read blank_lines=0 file=orders_2026-09-02_r1.csv rows=45
+2026-09-30T14:51:32+05:30 INFO file_read blank_lines=0 file=orders_2026-09-03_r1.csv rows=41
+2026-09-30T14:51:32+05:30 INFO step_done step=10_standardise_validate.sql
+2026-09-30T14:51:32+05:30 INFO step_done step=20_exact_duplicates.sql
+2026-09-30T14:51:32+05:30 INFO step_done step=30_in_file_conflicts.sql
+2026-09-30T14:51:32+05:30 INFO step_done step=40_revisions.sql
+2026-09-30T14:51:32+05:30 INFO step_done step=50_cross_date_conflicts.sql
+2026-09-30T14:51:32+05:30 INFO step_done step=55_row_outcomes.sql
+2026-09-30T14:51:32+05:30 INFO step_done step=60_clean_orders.sql
+2026-09-30T14:51:32+05:30 INFO step_done step=61_rejected_orders.sql
+2026-09-30T14:51:32+05:30 INFO step_done step=62_daily_sales_summary.sql
+2026-09-30T14:51:32+05:30 INFO step_done step=70_reconcile.sql
+2026-09-30T14:51:32+05:30 INFO reconciliation_checked status=passed
+2026-09-30T14:51:32+05:30 INFO gate_evaluated reject_rate=0.0652 status=failed threshold=0.05
+2026-09-30T14:51:32+05:30 WARNING outputs_withheld
+2026-09-30T14:51:32+05:30 INFO run_finished exit_code=1

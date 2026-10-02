@@ -1,0 +1,11 @@
+order_id,customer_id,order_date,product_id,category,quantity,unit_price,status
+ORD-000041,C0019,2026-09-01,P401,apparel,2,24.99,completed
+ORD-000042,C0042,2026-09-01,P302,grocery,5,2.15,completed
+ORD-000043,C0045,2026-09-01,P102,electronics,2,89.00,completed
+ORD-000044,C0057,2026-09-01,P100,electronics,2,199.99,completed
+ORD-000045,C0032,2026-09-01,P302,grocery,1,2.15,completed
+ORD-000046,C0001,2026-09-01,P302,grocery,3,2.15,completed
+ORD-000047,C0036,2026-09-01,P402,apparel,4,75.00,completed
+ORD-000048,C0014,2026-09-01,P401,apparel,4,24.99,completed
+ORD-000003,C0007,2026-09-01,P300,grocery,6,4.20,completed
+ORD-000016,C0026,2026-09-01,P402,apparel,3,75.00,cancelled

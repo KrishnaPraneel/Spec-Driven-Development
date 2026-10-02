@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: orders-pipeline
+Version: 0.1.0
+Summary: Daily orders pipeline: clean orders, quarantine and daily sales summary
+Requires-Python: >=3.11
+Requires-Dist: duckdb>=1.1
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
